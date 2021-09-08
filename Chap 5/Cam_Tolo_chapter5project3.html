@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!Cam_Tolo_chapter5project3.html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chapter 5 Project 3</title>
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="chapter05-project03.css" />
+</head>
+<body>
+<header>
+	<h1>Share Your Travels</h1>
+	<p>let us know where you have been</p> 
+</header>
+<main>
+	<section>
+		<form method="post" action="http://www.randyconnolly.com/test/process.php">
+			<fieldset>
+				<legend>Photo Details</legend>
+				<table>
+					<tr><td colspan="2">
+					<p><label>Title</label><br />
+					<input type="text" name="title" placeholder="Give your photo a descriptive name" /></p>
+					<p><label>Description</label><br />
+					<textarea name="description" rows="5" cols="61"
+					placeholder="Adding a rich description will help with search results"></textarea> </p></td></tr>
+					<tr><td><p><label>Continent</label><br />
+					<select name="continent">
+						<option>Choose continent</option>
+						<option>Africa</option>
+						<option>Italy</option>
+						<option>France</option>
+						<option>England</option>
+						</select>
+						</p>
+		
+<!add more continents>
+<!add similar options for country>
+					
+					<p><label>City</label><br />
+					<input type="text" name="city" list="cities" />
+					<datalist id="cities">
+						<option>Calgary</option>
+						
+					</datalist></p>
+					
+					</select>
+					</p></td>
+					
+				<td><div class="box">
+				<label>Copyright? </label> </br>
+				<input type="radio" name="copyright" value="1"></input>	
+				All rights reserved<br />
+				
+				</div>
+				<div class="box">
+				<label>Creative Commons Type</label> <br />
+				
+				<input type="checkbox" name="cc[]" value="1"></input>
+				Attribution <br />
+				
+				</div></td></tr>
+				<tr><td colspan="2">
+				<div class="rectangle">
+				<label>I accept the software license</label>
+				<input type="checkbox" mname="accept">
+				</div></td></tr>
+				<tr><td><p>
+				<label>Rate this photo:</label> <br />
+				<input type="number" min="1" max="5" name="rate" />
+				
+				</p>
+				<p><label>Color Collection:</label> <br />
+				<input type="color" name="color" />
+				</p> </td>
+				
+				<td><div class="box">
+				<p><label>Data taken:</label> <br />
+				<input type="date" name="date" /></p>
+				<p><label>Time Taken: </label> <br />
+				<input type="time" name="time" />
+				
+				</p> </div></td></tr>
+				
+				<tr><td colspan="2">
+				<div class="rectangle">
+				<input type="submit" class="rounded">
+				<input type="reset" value="Clear Form" class="rounded">
+				
+				</div></td></tr></table>
+				
+</fieldset></form></section></main> 
+</body>
+
+
+</html>
