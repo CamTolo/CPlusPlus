@@ -1,0 +1,6 @@
+﻿  Rock Paper Scissors Game.cpp
+C:\Users\ctolo\Desktop\Programn\Visual Studio Projects\Projects\Rock Paper Scissors Game\Rock Paper Scissors Game\Rock Paper Scissors Game.cpp(22,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\ctolo\Desktop\Programn\Visual Studio Projects\Projects\Rock Paper Scissors Game\Rock Paper Scissors Game\Rock Paper Scissors Game.cpp(59,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\ctolo\Desktop\Programn\Visual Studio Projects\Projects\Rock Paper Scissors Game\Rock Paper Scissors Game\Rock Paper Scissors Game.cpp(62,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\ctolo\Desktop\Programn\Visual Studio Projects\Projects\Rock Paper Scissors Game\Rock Paper Scissors Game\Rock Paper Scissors Game.cpp(65,20): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Rock Paper Scissors Game.vcxproj -> C:\Users\ctolo\Desktop\Programn\Visual Studio Projects\Projects\Rock Paper Scissors Game\Debug\Rock Paper Scissors Game.exe
